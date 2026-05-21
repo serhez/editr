@@ -13,6 +13,10 @@ Your editor, language servers, formatters, linters, file pickers, grep tools,
 Git UI, and terminal commands see a normal local directory. Mutagen keeps that
 directory synchronized with the remote project.
 
+Neovim users can add [`editr.nvim`](https://github.com/serhez/editr.nvim) for
+remote-aware Snacks pickers, canola/oil routing, and prompted hydration of
+ignored files.
+
 ## Why editr?
 
 SSH-native editors and lazy remote browsers are useful, but they do not give
@@ -39,10 +43,10 @@ mutagen version
 ssh host true
 ```
 
-2. Install `editr` from this checkout:
+2. Install `editr`:
 
 ```sh
-cargo install --path .
+cargo install --git https://github.com/serhez/editr
 ```
 
 3. Open a remote project:
@@ -170,7 +174,8 @@ It can add:
 - Hydration for ignored remote-only files, with size checks and prompts.
 - Router helpers so existing keymaps can call the right local or remote tool.
 
-See the `editr.nvim` README for plugin setup and mapping examples.
+See the [`editr.nvim` README](https://github.com/serhez/editr.nvim) for plugin
+setup and mapping examples.
 
 ## Sync Model
 
