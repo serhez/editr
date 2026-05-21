@@ -154,6 +154,9 @@ auto_stop_hydration_after = "10m"
 See [Configuration](docs/configuration.md) for the full config guide and ignore
 recipes.
 
+See [Recipes](docs/recipes.md) for shell wrappers, reusable config patterns,
+SSH-agent setup, and practical launch workflows.
+
 ## Editors
 
 `editr` works with any terminal editor because it only controls the process
