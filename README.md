@@ -1,5 +1,9 @@
 # editr
 
+[![CI](https://github.com/serhez/editr/actions/workflows/ci.yml/badge.svg)](https://github.com/serhez/editr/actions/workflows/ci.yml)
+[![Crates.io](https://img.shields.io/crates/v/editr.svg)](https://crates.io/crates/editr)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Open remote projects in your local editor.
 
 `editr` keeps a local Mutagen mirror of an SSH target and starts your editor
@@ -44,6 +48,12 @@ ssh host true
 ```
 
 2. Install `editr`:
+
+```sh
+cargo install editr
+```
+
+Or install the latest `main` branch:
 
 ```sh
 cargo install --git https://github.com/serhez/editr

@@ -4,6 +4,12 @@ version = "0.1.0"
 edition = "2024"
 description = "Open remote projects in local editor through a Mutagen-backed mirror"
 license = "MIT"
+repository = "https://github.com/serhez/editr"
+homepage = "https://github.com/serhez/editr"
+documentation = "https://docs.rs/editr"
+readme = "README.md"
+keywords = ["remote", "editor", "ssh", "mutagen", "sync"]
+categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
 anyhow = "1"
